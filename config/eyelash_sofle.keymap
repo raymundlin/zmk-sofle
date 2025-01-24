@@ -56,7 +56,7 @@
 &kp TAB         &kp Q      &kp W         &kp E         &kp R   &kp T      &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O      &kp P     &kp BSLH
 &kp CAPS        &kp A      &kp S         &kp D         &kp F   &kp G      &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L      &kp SEMI  &kp APOS
 &kp LEFT_SHIFT  &kp Z      &kp X         &kp C         &kp V   &kp B      &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH  &kp RIGHT_SHIFT
-&kp K_MUTE      &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp TAB    &kp ENTER        &kp ENTER  &kp SPACE  &mo 2      &kp MINUS  &kp PLUS
+&kp K_MUTE      &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp TAB    &kp EXCLAMATION  &kp ENTER  &kp SPACE  &mo 2      &kp MINUS  &kp PLUS
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
@@ -67,8 +67,8 @@
             bindings = <
 &kp F12     &kp F1           &kp F2           &kp F3          &kp F4           &kp F5       &mmv MOVE_UP     &kp F6     &kp F7     &kp F8     &kp F9      &kp F10           &kp F11
 &trans      &trans           &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &mkp MB4     &mmv MOVE_DOWN   &kp GLOBE  &kp PG_UP  &kp UP     &kp PG_DN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_ON   &trans           &trans          &trans           &mkp MB5     &mmv MOVE_LEFT   &kp HOME   &kp LEFT   &kp DOWN   &kp RIGHT   &kp INSERT        &kp DEL
-&trans      &rgb_ug RGB_OFF  &trans           &trans          &kp TILDE        &kp GRAVE    &mmv MOVE_RIGHT  &kp END    &kp N0     &kp CARET  &kp DOLLAR  &trans            &trans
+&trans      &rgb_ug RGB_ON   &kp AT_SIGN      &kp HASH        &kp PERCENT      &mkp MB5     &mmv MOVE_LEFT   &kp HOME   &kp LEFT   &kp DOWN   &kp RIGHT   &kp INSERT        &kp DEL
+&trans      &rgb_ug RGB_OFF  &trans           &trans          &trans           &kp GRAVE    &mmv MOVE_RIGHT  &kp END    &kp N0     &kp CARET  &kp DOLLAR  &trans            &trans
 &kp K_MUTE  &trans           &trans           &trans          &trans           &trans       &mkp MCLK        &mkp LCLK  &mkp RCLK  &trans     &kp MINUS   &kp EQUAL
             >;
 
@@ -78,11 +78,11 @@
 
         layer_2 {
             bindings = <
-&trans                 &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4    &msc SCRL_UP     &kp F11  &kp F12                &kp F13            &kp F14          &kp F15         &trans
-&trans                 &out OUT_TOG    &trans        &trans         &trans        &trans          &msc SCRL_DOWN   &trans   &trans                 &trans             &trans           &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans                 &bt BT_CLR      &kp AT        &kp HASH       &kp PERCENT   &kp DOLLAR      &msc SCRL_LEFT   &trans   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &trans          &trans
-&trans                 &bt BT_CLR_ALL  &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp TILDE       &msc SCRL_RIGHT  &trans   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans          &trans
-&kp C_BRIGHTNESS_AUTO  &trans          &trans        &trans         &trans        &trans          &mkp LCLK        &trans   &trans                 &trans             &kp UNDER        &kp PLUS
+&trans                 &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &msc SCRL_UP     &kp F11  &kp F12                &kp F13            &kp F14          &kp F15           &trans
+&trans                 &out OUT_TOG    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans          &msc SCRL_DOWN   &trans   &kp CARET              &kp AMPERSAND      &kp ASTERISK     &kp LEFT_BRACE    &kp RIGHT_BRACE
+&trans                 &bt BT_CLR      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans          &msc SCRL_LEFT   &trans   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
+&trans                 &bt BT_CLR_ALL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp TILDE       &msc SCRL_RIGHT  &trans   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp BACKSLASH     &trans
+&kp C_BRIGHTNESS_AUTO  &trans          &trans        &trans        &trans        &trans          &mkp LCLK        &trans   &trans                 &trans             &kp UNDER        &kp PLUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
