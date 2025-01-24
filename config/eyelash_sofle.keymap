@@ -65,11 +65,11 @@
 
         layer_1 {
             bindings = <
-&kp F12     &kp F1           &kp F2           &kp F3          &kp F4           &kp F5       &mmv MOVE_UP     &kp F6     &kp F7     &kp F8     &kp F9      &kp F10           &kp F11
-&trans      &trans           &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &mkp MB4     &mmv MOVE_DOWN   &kp GLOBE  &kp PG_UP  &kp UP     &kp PG_DN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_ON   &kp AT_SIGN      &kp HASH        &kp PERCENT      &mkp MB5     &mmv MOVE_LEFT   &kp HOME   &kp LEFT   &kp DOWN   &kp RIGHT   &kp INSERT        &kp DEL
-&trans      &rgb_ug RGB_OFF  &kp MINUS        &kp UNDERSCORE  &kp EQUAL        &kp GRAVE    &mmv MOVE_RIGHT  &kp END    &kp N0     &kp CARET  &kp DOLLAR  &trans            &trans
-&kp K_MUTE  &trans           &trans           &trans          &trans           &trans       &mkp MCLK        &mkp LCLK  &mkp RCLK  &trans     &kp MINUS   &kp EQUAL
+&kp F12     &kp F1           &kp F2           &kp F3          &kp F4           &kp F5        &mmv MOVE_UP     &kp F6     &kp F7     &kp F8     &kp F9      &kp F10           &kp F11
+&trans      &trans           &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp INSERT    &mmv MOVE_DOWN   &kp GLOBE  &kp PG_UP  &kp UP     &kp PG_DN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &rgb_ug RGB_ON   &kp AT_SIGN      &kp HASH        &kp PERCENT      &kp DELETE    &mmv MOVE_LEFT   &kp HOME   &kp LEFT   &kp DOWN   &kp RIGHT   &mkp MB4          &mkp MB5
+&trans      &rgb_ug RGB_OFF  &kp MINUS        &kp UNDERSCORE  &kp EQUAL        &kp GRAVE     &mmv MOVE_RIGHT  &kp END    &kp N0     &kp CARET  &kp DOLLAR  &trans            &trans
+&kp K_MUTE  &trans           &trans           &trans          &trans           &trans        &mkp MCLK        &mkp LCLK  &mkp RCLK  &trans     &kp MINUS   &kp EQUAL
             >;
 
             display-name = "layer1";
