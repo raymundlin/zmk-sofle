@@ -106,9 +106,9 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
+  - _
+  - {t: '=', s: +}
   - {t: '`', s: '~'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - END
