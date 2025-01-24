@@ -59,7 +59,7 @@
 &kp K_MUTE      &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp TAB    &kp EXCLAMATION  &kp ENTER  &kp SPACE  &mo 2      &kp MINUS  &kp PLUS
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp DOWN UP>;
             display-name = "LAYER0";
         };
 
