@@ -83,7 +83,7 @@ layers:
   - PRINTSCREEN
   - SCROLLLOCK
   - PAUSE BREAK
-  - '&mkp MB4'
+  - Ins
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - GLOBE
   - PG UP
@@ -96,14 +96,14 @@ layers:
   - '@'
   - '#'
   - '%'
-  - '&mkp MB5'
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - HOME
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - Ins
-  - $$mdi:backspace-reverse-outline$$
+  - '&mkp MB4'
+  - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - {t: '-', s: _}
