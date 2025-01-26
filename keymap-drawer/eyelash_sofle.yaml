@@ -109,7 +109,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '?'
-  - '~'
+  - {t: '`', s: '~'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - END
   - {t: '0', s: )}
@@ -150,7 +150,7 @@ layers:
   - KP 3
   - KP PLUS
   - $$mdi:pan-down$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -163,7 +163,7 @@ layers:
   - KP 6
   - KP MINUS
   - $$mdi:pan-left$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '"'
   - ^
   - '&'
   - '*'
@@ -176,7 +176,7 @@ layers:
   - KP 9
   - '~'
   - $$mdi:pan-right$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '{'
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
