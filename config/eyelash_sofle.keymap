@@ -81,7 +81,7 @@
 &trans  &out OUT_TOG    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS     &msc SCRL_DOWN   &kp PIPE           &kp CARET             &kp AMPERSAND          &kp ASTERISK  &trans   &trans
 &trans  &bt BT_CLR      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS    &msc SCRL_LEFT   &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &trans   &trans
 &trans  &bt BT_CLR_ALL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TILDE       &msc SCRL_RIGHT  &kp ENTER          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans   &trans
-&tog 2  &trans          &trans           &kp KP_N0        &trans           &trans          &trans           &trans             &trans                &trans                 &trans        &trans
+&trans  &trans          &trans           &kp KP_N0        &trans           &trans          &trans           &trans             &trans                &trans                 &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
