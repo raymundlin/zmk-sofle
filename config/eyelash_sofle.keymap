@@ -68,7 +68,7 @@
 &trans   &trans  &kp HASH  &kp DOLLAR       &kp PERCENT   &kp INSERT    &mmv MOVE_DOWN   &kp GLOBE  &kp PG_UP  &kp UP     &kp PG_DN   &kp PRINTSCREEN  &kp SCROLLLOCK
 &trans   &trans  &trans    &kp EXCLAMATION  &kp AT_SIGN   &kp DELETE    &mmv MOVE_LEFT   &kp HOME   &kp LEFT   &kp DOWN   &kp RIGHT   &kp RS(A)        &kp PAUSE_BREAK
 &trans   &trans  &trans    &trans           &kp QUESTION  &kp GRAVE     &mmv MOVE_RIGHT  &kp END    &kp N0     &kp CARET  &kp DOLLAR  &mkp MB4         &mkp MB5
-&trans   &trans  &trans    &trans           &trans        &trans        &trans           &mkp LCLK  &mkp RCLK  &trans     &kp MINUS   &kp PLUS
+&trans   &trans  &trans    &trans           &trans        &trans        &mkp LCLK        &mkp RCLK  &trans     &trans     &kp MINUS   &kp PLUS
             >;
 
             display-name = "layer1";
