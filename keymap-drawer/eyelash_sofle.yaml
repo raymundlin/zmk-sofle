@@ -112,9 +112,9 @@ layers:
   - {t: '`', s: '~'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - END
-  - {t: '0', s: )}
-  - ^
-  - $
+  - '{'
+  - '}'
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB4'
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
