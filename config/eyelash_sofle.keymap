@@ -7,6 +7,7 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/rgb.h>
 
 /*
 
@@ -77,11 +78,11 @@
 
         layer_2 {
             bindings = <
-&trans  &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &msc SCRL_UP     &kp F11            &kp F12               &kp F13                &kp F14       &kp F15  &trans
-&trans  &out OUT_TOG    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS     &msc SCRL_DOWN   &kp PIPE           &kp CARET             &kp AMPERSAND          &kp ASTERISK  &trans   &trans
-&trans  &bt BT_CLR      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS    &msc SCRL_LEFT   &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &trans   &trans
-&trans  &bt BT_CLR_ALL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TILDE       &msc SCRL_RIGHT  &kp ENTER          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans   &trans
-&trans  &trans          &trans           &kp KP_N0        &trans           &trans          &trans           &trans             &trans                &trans                 &trans        &trans
+&trans           &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &msc SCRL_UP     &kp F11            &kp F12               &kp F13                &kp F14          &kp F15          &rgb_ug RGB_TOG
+&rgb_ug RGB_SPI  &out OUT_TOG    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS     &msc SCRL_DOWN   &kp PIPE           &kp CARET             &kp AMPERSAND          &kp ASTERISK     &trans           &rgb_ug RGB_EFF
+&rgb_ug RGB_SPD  &bt BT_CLR      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS    &msc SCRL_LEFT   &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans           &rgb_ug RGB_HUD  &rgb_ug RGB_HUI
+&trans           &bt BT_CLR_ALL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TILDE       &msc SCRL_RIGHT  &kp ENTER          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans           &rgb_ug RGB_SAD  &rgb_ug RGB_SAI
+&trans           &trans          &trans           &kp KP_N0        &trans           &trans          &trans           &trans             &trans                &trans                 &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
