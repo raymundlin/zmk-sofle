@@ -78,11 +78,11 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '!'
+  - '@'
   - '#'
-  - $
-  - '%'
   - Ins
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - GLOBE
@@ -91,11 +91,11 @@ layers:
   - PG DN
   - PRINTSCREEN
   - SCROLLLOCK
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '!'
-  - '@'
+  - '{'
+  - '}'
+  - $
+  - '%'
+  - ^
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - HOME
@@ -106,21 +106,21 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '?'
+  - '&'
+  - '*'
+  - (
   - {t: '`', s: '~'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - END
-  - '{'
-  - '}'
+  - Gui+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+$$mdi:arrow-right-bold$$
   - '&mkp MB4'
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - )
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
@@ -150,10 +150,10 @@ layers:
   - KP 3
   - KP PLUS
   - $$mdi:pan-down$$
+  - {t: \, s: '|'}
   - '|'
-  - ^
-  - '&'
-  - '*'
+  - (
+  - )
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
   - RGB SPD
@@ -163,10 +163,10 @@ layers:
   - KP 6
   - KP MINUS
   - $$mdi:pan-left$$
+  - {t: '''', s: '"'}
   - '"'
-  - (
-  - )
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - RGB HUD
   - RGB HUI
   - {t: '$$mdi:transfer$$', type: trans}
@@ -177,9 +177,9 @@ layers:
   - '~'
   - $$mdi:pan-right$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '?'
+  - '{'
+  - '}'
   - RGB SAD
   - RGB SAI
   - {t: '$$mdi:transfer$$', type: trans}
