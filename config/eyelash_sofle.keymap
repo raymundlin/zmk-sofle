@@ -65,11 +65,11 @@
 
         layer_1 {
             bindings = <
-&kp F12  &kp F1  &kp F2    &kp F3           &kp F4        &kp F5        &mmv MOVE_UP     &kp F6     &kp F7          &kp F8           &kp F9     &kp F10          &kp F11
-&trans   &trans  &kp HASH  &kp DOLLAR       &kp PERCENT   &kp INSERT    &mmv MOVE_DOWN   &kp GLOBE  &kp PG_UP       &kp UP           &kp PG_DN  &kp PRINTSCREEN  &kp SCROLLLOCK
-&trans   &trans  &trans    &kp EXCLAMATION  &kp AT_SIGN   &kp DELETE    &mmv MOVE_LEFT   &kp HOME   &kp LEFT        &kp DOWN         &kp RIGHT  &kp RS(A)        &kp PAUSE_BREAK
-&trans   &trans  &trans    &trans           &kp QUESTION  &kp GRAVE     &mmv MOVE_RIGHT  &kp END    &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans     &mkp MB4         &mkp MB5
-&trans   &trans  &trans    &trans           &trans        &trans        &mkp LCLK        &mkp RCLK  &trans          &trans           &kp MINUS  &kp PLUS
+&kp F12           &kp F1             &kp F2           &kp F3                 &kp F4                &kp F5        &mmv MOVE_UP     &kp F6     &kp F7        &kp F8    &kp F9         &kp F10          &kp F11
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EXCLAMATION  &kp AT_SIGN            &kp HASH              &kp INSERT    &mmv MOVE_DOWN   &kp GLOBE  &kp PG_UP     &kp UP    &kp PG_DN      &kp PRINTSCREEN  &kp SCROLLLOCK
+&kp LEFT_BRACE    &kp RIGHT_BRACE    &kp DOLLAR       &kp PERCENT            &kp CARET             &kp DELETE    &mmv MOVE_LEFT   &kp HOME   &kp LEFT      &kp DOWN  &kp RIGHT      &kp RS(A)        &kp PAUSE_BREAK
+&trans            &trans             &kp AMPERSAND    &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp GRAVE     &mmv MOVE_RIGHT  &kp END    &kp LG(LEFT)  &trans    &kp LG(RIGHT)  &mkp MB4         &mkp MB5
+&trans            &trans             &trans           &kp RIGHT_PARENTHESIS  &trans                &trans        &mkp LCLK        &mkp RCLK  &trans        &trans    &kp MINUS      &kp PLUS
             >;
 
             display-name = "layer1";
@@ -78,11 +78,11 @@
 
         layer_2 {
             bindings = <
-&trans           &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &msc SCRL_UP     &kp F11            &kp F12               &kp F13                &kp F14          &kp F15          &rgb_ug RGB_TOG
-&rgb_ug RGB_SPI  &out OUT_TOG    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS     &msc SCRL_DOWN   &kp PIPE           &kp CARET             &kp AMPERSAND          &kp ASTERISK     &trans           &rgb_ug RGB_EFF
-&rgb_ug RGB_SPD  &bt BT_CLR      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS    &msc SCRL_LEFT   &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans           &rgb_ug RGB_HUD  &rgb_ug RGB_HUI
-&trans           &bt BT_CLR_ALL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TILDE       &msc SCRL_RIGHT  &kp ENTER          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans           &rgb_ug RGB_SAD  &rgb_ug RGB_SAI
-&trans           &trans          &trans           &kp KP_N0        &trans           &trans          &trans           &trans             &trans                &trans                 &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
+&trans           &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &msc SCRL_UP     &kp F11           &kp F12            &kp F13               &kp F14                &kp F15          &rgb_ug RGB_TOG
+&rgb_ug RGB_SPI  &out OUT_TOG    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS     &msc SCRL_DOWN   &kp BACKSLASH     &kp PIPE           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans           &rgb_ug RGB_EFF
+&rgb_ug RGB_SPD  &bt BT_CLR      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS    &msc SCRL_LEFT   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &rgb_ug RGB_HUD  &rgb_ug RGB_HUI
+&trans           &bt BT_CLR_ALL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TILDE       &msc SCRL_RIGHT  &kp ENTER         &kp QUESTION       &kp LEFT_BRACE        &kp RIGHT_BRACE        &rgb_ug RGB_SAD  &rgb_ug RGB_SAI
+&trans           &trans          &trans           &kp KP_N0        &trans           &trans          &trans           &trans            &trans             &trans                &rgb_ug RGB_BRD        &rgb_ug RGB_BRI
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
