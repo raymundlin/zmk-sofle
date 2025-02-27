@@ -51,13 +51,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-tab$$
   - {t: layer1, h: toggle}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - layer1
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - MUTE
   - $$mdi:keyboard-space$$
   - '2'
@@ -78,8 +78,8 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
   - '!'
   - '@'
   - '#'
@@ -89,10 +89,10 @@ layers:
   - PG UP
   - $$mdi:arrow-up-bold$$
   - PG DN
-  - PRINTSCREEN
+  - (
+  - )
+  - {t: '$$mdi:transfer$$', type: trans}
   - SCROLLLOCK
-  - '{'
-  - '}'
   - $
   - '%'
   - ^
@@ -102,10 +102,10 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - Sft+A
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - '&'
   - '*'
   - (
@@ -115,8 +115,8 @@ layers:
   - Gui+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:arrow-right-bold$$
-  - '&mkp MB4'
-  - '&mkp MB5'
+  - '{'
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: '-', s: _}
   - +
   '2':
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -143,8 +143,8 @@ layers:
   - F14
   - F15
   - RGB TOG
-  - RGB SPI
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - RGB HUD
+  - RGB HUI
   - KP 1
   - KP 2
   - KP 3
@@ -152,12 +152,12 @@ layers:
   - $$mdi:pan-down$$
   - {t: \, s: '|'}
   - '|'
-  - (
-  - )
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '1'
+  - '2'
+  - '3'
   - RGB EFF
-  - RGB SPD
-  - $$mdi:bluetooth-off$$
+  - RGB SAD
+  - RGB SAI
   - KP 4
   - KP 5
   - KP 6
@@ -165,24 +165,24 @@ layers:
   - $$mdi:pan-left$$
   - {t: '''', s: '"'}
   - '"'
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - RGB HUD
-  - RGB HUI
-  - {t: '$$mdi:transfer$$', type: trans}
-  - BT CLR ALL
+  - '4'
+  - '5'
+  - '6'
+  - RGB EFR
+  - RGB BRD
+  - RGB BRI
   - KP 7
   - KP 8
   - KP 9
   - '~'
   - $$mdi:pan-right$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: /, s: '?'}
   - '?'
-  - '{'
-  - '}'
-  - RGB SAD
-  - RGB SAI
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
@@ -192,8 +192,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB BRD
-  - RGB BRI
+  - RGB SPD
+  - RGB SPI
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
