@@ -78,7 +78,7 @@ layers:
   - F9
   - F10
   - F11
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - '!'
   - '@'
@@ -91,7 +91,7 @@ layers:
   - PG DN
   - (
   - )
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - SCROLLLOCK
   - $
   - '%'
@@ -122,9 +122,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - )
   - {type: held}
-  - <
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '>'
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
