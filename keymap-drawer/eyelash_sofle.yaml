@@ -187,9 +187,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
   - {t: '$$mdi:transfer$$', type: trans}
-  - '>'
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - MUTE
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB SPD
