@@ -145,10 +145,10 @@ layers:
   - RGB TOG
   - RGB HUD
   - RGB HUI
-  - KP 1
-  - KP 2
-  - KP 3
-  - RGB EFF
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP 0
   - $$mdi:pan-down$$
   - {t: \, s: '|'}
   - '|'
@@ -161,7 +161,7 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - RGB EFR
+  - RGB EFF
   - $$mdi:pan-left$$
   - {t: '''', s: '"'}
   - '"'
@@ -171,9 +171,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB BRD
   - RGB BRI
-  - KP 7
-  - KP 8
-  - KP 9
+  - KP 1
+  - KP 2
+  - KP 3
   - '~'
   - $$mdi:pan-right$$
   - {t: /, s: '?'}
@@ -185,7 +185,7 @@ layers:
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP 0
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
