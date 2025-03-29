@@ -90,8 +90,8 @@ layers:
   - PG UP
   - $$mdi:arrow-up-bold$$
   - PG DN
-  - (
-  - )
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
   - SCROLLLOCK
   - $
@@ -103,30 +103,30 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-up$$
   - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
   - '&'
   - '*'
-  - (
   - {t: '`', s: '~'}
+  - '~'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - END
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-tab$$
-  - '{'
-  - '}'
+  - $$mdi:pan-left$$
+  - $$mdi:pan-right$$
   - {t: LAYER0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - )
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - +
@@ -153,9 +153,9 @@ layers:
   - $$mdi:pan-down$$
   - {t: \, s: '|'}
   - '|'
-  - '1'
-  - '2'
-  - '3'
+  - (
+  - )
+  - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Gui+Ctl+4
   - RGB SAD
   - RGB SAI
@@ -166,23 +166,23 @@ layers:
   - $$mdi:pan-left$$
   - {t: '''', s: '"'}
   - '"'
-  - '4'
-  - '5'
-  - '6'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB BRD
   - RGB BRI
   - KP 1
   - KP 2
   - KP 3
-  - '~'
+  - RGB EFR
   - $$mdi:pan-right$$
   - {t: /, s: '?'}
   - '?'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - '{'
+  - '}'
+  - {t: /, s: '?'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
