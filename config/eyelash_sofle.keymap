@@ -67,7 +67,7 @@
 &trans   &kp PRINTSCREEN  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp INSERT    &mmv MOVE_DOWN   &kp GLOBE  &kp PG_UP      &kp UP     &kp PG_DN  &trans          &msc SCRL_DOWN
 &trans   &kp SCROLLLOCK   &kp DOLLAR       &kp PERCENT   &kp CARET  &kp DELETE    &mmv MOVE_LEFT   &kp HOME   &kp LEFT       &kp DOWN   &kp RIGHT  &trans          &msc SCRL_UP
 &trans   &kp PAUSE_BREAK  &kp AMPERSAND    &kp ASTERISK  &kp GRAVE  &kp TILDE     &mmv MOVE_RIGHT  &kp END    &kp BACKSPACE  &kp SPACE  &kp TAB    &msc SCRL_LEFT  &msc SCRL_RIGHT
-&to 0    &trans           &trans           &trans        &trans     &mkp RCLK     &trans           &mkp LCLK  &kp ENTER      &trans     &kp MINUS  &kp PLUS
+&to 0    &trans           &trans           &trans        &trans     &mkp RCLK     &mkp LCLK        &kp ENTER  &kp ENTER      &trans     &kp MINUS  &kp PLUS
             >;
 
             display-name = "layer1";
