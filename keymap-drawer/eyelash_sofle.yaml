@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: 'Alt+$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -63,8 +63,8 @@ layers:
   - $$mdi:keyboard-space$$
   - '2'
   - $$mdi:apple-keyboard-shift$$
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   layer1:
   - F12
   - F1
@@ -90,8 +90,8 @@ layers:
   - PG UP
   - $$mdi:arrow-up-bold$$
   - PG DN
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - SCROLLLOCK
   - $
@@ -103,8 +103,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-down-bold$$
+  - '{'
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
   - '&'
@@ -113,9 +113,9 @@ layers:
   - '~'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - END
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-space$$
+  - $$mdi:pan-down$$
   - $$mdi:keyboard-tab$$
+  - $$mdi:pan-up$$
   - $$mdi:pan-left$$
   - $$mdi:pan-right$$
   - {t: LAYER0, h: toggle}
@@ -124,12 +124,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-down$$
-  - $$mdi:pan-up$$
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   '2':
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -155,7 +155,7 @@ layers:
   - '|'
   - (
   - )
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP PLUS
   - Sft+Gui+Ctl+4
   - RGB SAD
   - RGB SAI
@@ -168,8 +168,8 @@ layers:
   - '"'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP MINUS
+  - _
   - RGB BRD
   - RGB BRI
   - KP 1
@@ -181,20 +181,20 @@ layers:
   - '?'
   - '{'
   - '}'
-  - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - RGB SPD
+  - RGB SPI
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - MUTE
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB SPD
-  - RGB SPI
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
