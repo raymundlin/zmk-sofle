@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: 'Alt+$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-up-bold$$
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -51,8 +51,8 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: /, s: '?'}
+  - $$mdi:arrow-down-bold$$
   - {t: layer1, h: toggle}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
@@ -63,8 +63,8 @@ layers:
   - $$mdi:keyboard-space$$
   - '2'
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
   layer1:
   - F12
   - F1
