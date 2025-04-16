@@ -169,7 +169,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - KP MINUS
-  - _
+  - RGB SPI
   - RGB BRD
   - RGB BRI
   - KP 1
@@ -181,8 +181,8 @@ layers:
   - '?'
   - '{'
   - '}'
+  - _
   - RGB SPD
-  - RGB SPI
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
