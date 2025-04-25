@@ -91,7 +91,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:pan-down$$
   - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - SCROLLLOCK
   - $
@@ -104,7 +104,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - '{'
-  - '}'
+  - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
   - '&'
@@ -128,8 +128,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   '2':
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -143,7 +143,7 @@ layers:
   - F13
   - F14
   - F15
-  - RGB TOG
+  - Sft+Ctl+Gui+4
   - RGB HUD
   - RGB HUI
   - KP 7
@@ -156,7 +156,7 @@ layers:
   - (
   - )
   - KP PLUS
-  - Sft+Gui+Ctl+4
+  - {t: '=', s: +}
   - RGB SAD
   - RGB SAI
   - KP 4
@@ -169,7 +169,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - KP MINUS
-  - RGB SPI
+  - {t: '-', s: _}
   - RGB BRD
   - RGB BRI
   - KP 1
@@ -182,7 +182,7 @@ layers:
   - '{'
   - '}'
   - _
-  - RGB SPD
+  - RGB TOG
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -193,8 +193,8 @@ layers:
   - MUTE
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - RGB SPD
+  - RGB SPI
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
