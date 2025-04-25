@@ -63,11 +63,11 @@
 
         layer_1 {
             bindings = <
-&kp F12  &kp F1           &kp F2           &kp F3        &kp F4     &kp F5           &mmv MOVE_UP     &kp F6     &kp F7         &kp F8     &kp F9          &kp F10           &kp F11
-&trans   &kp PRINTSCREEN  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp INSERT       &mmv MOVE_DOWN   &kp GLOBE  &kp PG_UP      &kp UP     &msc SCRL_DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans   &kp SCROLLLOCK   &kp DOLLAR       &kp PERCENT   &kp CARET  &kp DELETE       &mmv MOVE_LEFT   &kp HOME   &kp LEFT       &kp DOWN   &kp RIGHT       &kp LEFT_BRACE    &kp RIGHT_BRACE
-&trans   &kp PAUSE_BREAK  &kp AMPERSAND    &kp ASTERISK  &kp GRAVE  &kp TILDE        &mmv MOVE_RIGHT  &kp END    &kp PAGE_DOWN  &kp SPACE  &msc SCRL_UP    &kp UNDERSCORE    &trans
-&to 0    &trans           &trans           &trans        &trans     &kp LA(SPACE)    &trans           &mkp LCLK  &mkp RCLK      &trans     &kp MINUS       &kp EQUAL
+&kp F12  &kp F1           &kp F2           &kp F3        &kp F4     &kp F5           &mmv MOVE_UP     &kp F6     &kp F7         &kp F8     &kp F9            &kp F10            &kp F11
+&trans   &kp PRINTSCREEN  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp INSERT       &mmv MOVE_DOWN   &kp GLOBE  &kp PG_UP      &kp UP     &msc SCRL_DOWN    &kp LEFT_BRACKET   &kp EQUAL
+&trans   &kp SCROLLLOCK   &kp DOLLAR       &kp PERCENT   &kp CARET  &kp DELETE       &mmv MOVE_LEFT   &kp HOME   &kp LEFT       &kp DOWN   &kp RIGHT         &kp LEFT_BRACE     &kp MINUS
+&trans   &kp PAUSE_BREAK  &kp AMPERSAND    &kp ASTERISK  &kp GRAVE  &kp TILDE        &mmv MOVE_RIGHT  &kp END    &kp PAGE_DOWN  &kp SPACE  &msc SCRL_UP      &kp UNDERSCORE     &trans
+&to 0    &trans           &trans           &trans        &trans     &kp LA(SPACE)    &trans           &mkp LCLK  &mkp RCLK      &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
 
             display-name = "layer1";
@@ -76,11 +76,11 @@
 
         layer_2 {
             bindings = <
-&out OUT_TOG     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &msc SCRL_UP     &kp F11           &kp F12            &kp F13               &kp F14                &kp F15         &rgb_ug RGB_TOG
-&rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &msc SCRL_DOWN   &kp BACKSLASH     &kp PIPE           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_PLUS     &kp LS(LG(LC(NUMBER_4)))
-&rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &rgb_ug RGB_EFF    &msc SCRL_LEFT   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp KP_MINUS    &rgb_ug RGB_SPI
-&rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &rgb_ug RGB_EFR    &msc SCRL_RIGHT  &kp SLASH         &kp QUESTION       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE  &rgb_ug RGB_SPD
-&bt BT_CLR       &trans           &trans           &trans           &trans           &kp LG(TAB)        &trans           &kp K_MUTE        &trans             &trans                &kp MINUS              &kp EQUAL
+&out OUT_TOG     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &msc SCRL_UP     &kp F11           &kp F12            &kp F13               &kp F14                &kp F15          &kp LS(LC(LG(NUMBER_4)))
+&rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &msc SCRL_DOWN   &kp BACKSLASH     &kp PIPE           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_PLUS      &kp EQUAL
+&rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &rgb_ug RGB_EFF    &msc SCRL_LEFT   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp KP_MINUS     &kp MINUS
+&rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &rgb_ug RGB_EFR    &msc SCRL_RIGHT  &kp SLASH         &kp QUESTION       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE   &rgb_ug RGB_TOG
+&bt BT_CLR       &trans           &trans           &trans           &trans           &kp LG(TAB)        &trans           &kp K_MUTE        &trans             &trans                &rgb_ug RGB_SPD        &rgb_ug RGB_SPI
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
