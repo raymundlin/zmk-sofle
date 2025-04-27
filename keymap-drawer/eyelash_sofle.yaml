@@ -66,7 +66,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   layer1:
-  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - '!'
