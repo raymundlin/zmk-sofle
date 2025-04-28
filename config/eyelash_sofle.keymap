@@ -80,7 +80,7 @@
 &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &msc SCRL_DOWN   &kp BACKSLASH     &kp PIPE           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_PLUS      &kp EQUAL
 &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &rgb_ug RGB_EFF    &msc SCRL_LEFT   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp KP_MINUS     &kp MINUS
 &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &rgb_ug RGB_EFR    &msc SCRL_RIGHT  &kp SLASH         &kp QUESTION       &kp LEFT_BRACE        &kp RIGHT_BRACE        &rgb_ug RGB_SPD  &rgb_ug RGB_SPI
-&bt BT_CLR       &trans           &trans           &trans           &trans           &kp LG(TAB)        &trans           &kp K_MUTE        &trans             &trans                &rgb_ug RGB_OFF        &rgb_ug RGB_ON
+&bt BT_CLR       &trans           &trans           &trans           &trans           &kp LG(TAB)        &trans           &kp K_MUTE        &trans             &trans                &trans                 &rgb_ug RGB_TOG
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
