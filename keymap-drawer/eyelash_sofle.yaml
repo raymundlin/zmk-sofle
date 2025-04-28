@@ -193,8 +193,8 @@ layers:
   - MUTE
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
