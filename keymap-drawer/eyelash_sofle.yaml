@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - _
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - '2'
   - $$mdi:apple-keyboard-shift$$
-  - {t: '-', s: _}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-down-bold$$
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+Alt+8
   - PRINTSCREEN
   - '!'
   - '@'
@@ -91,7 +91,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:pan-down$$
   - (
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - SCROLLLOCK
   - $
@@ -114,7 +114,7 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - END
   - PgDn
-  - $$mdi:keyboard-space$$
+  - _
   - $$mdi:pan-up$$
   - '{'
   - $$mdi:keyboard-tab$$
@@ -127,8 +127,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - _
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   '2':
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
@@ -156,7 +156,7 @@ layers:
   - (
   - )
   - KP PLUS
-  - RGB TOG
+  - Sft+Gui+5
   - RGB SAD
   - RGB SAI
   - KP 4
@@ -188,12 +188,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+$$mdi:keyboard-tab$$
+  - Gui+$$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - MUTE
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - _
+  - RGB TOG
   - {t: '-', s: _}
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
