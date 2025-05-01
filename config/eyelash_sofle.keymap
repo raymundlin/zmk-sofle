@@ -50,11 +50,11 @@
 
         layer0 {
             bindings = <
-&kp ESC    &kp N1            &kp N2        &kp N3          &kp N4  &kp N5              &kp UP_ARROW     &kp N6     &kp N7  &kp N8           &kp N9     &kp N0          &kp BACKSPACE
-&kp GRAVE  &kp Q             &kp W         &kp E           &kp R   &kp T               &kp DOWN_ARROW   &kp Y      &kp U   &kp I            &kp O      &kp P           &kp UNDERSCORE
-&kp CAPS   &kp A             &kp S         &kp D           &kp F   &kp G               &kp LEFT_ARROW   &kp H      &kp J   &kp K            &kp L      &kp SEMI        &kp UP_ARROW
-&kp TAB    &kp Z             &kp X         &kp C           &kp V   &kp B               &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA        &kp DOT    &kp LEFT_ARROW  &kp RIGHT_ARROW
-&to 1      &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_SHIFT  &mo 1   &kp LEFT_CONTROL    &kp K_MUTE       &kp SPACE  &mo 2   &kp RIGHT_SHIFT  &kp ENTER  &kp DOWN_ARROW
+&kp ESC    &kp N1     &kp N2        &kp N3          &kp N4  &kp N5              &kp UP_ARROW     &kp N6     &kp N7  &kp N8           &kp N9     &kp N0          &kp BACKSPACE
+&kp GRAVE  &kp Q      &kp W         &kp E           &kp R   &kp T               &kp DOWN_ARROW   &kp Y      &kp U   &kp I            &kp O      &kp P           &kp UNDERSCORE
+&kp CAPS   &kp A      &kp S         &kp D           &kp F   &kp G               &kp LEFT_ARROW   &kp H      &kp J   &kp K            &kp L      &kp SEMI        &kp UP_ARROW
+&kp TAB    &kp Z      &kp X         &kp C           &kp V   &kp B               &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA        &kp DOT    &kp LEFT_ARROW  &kp RIGHT_ARROW
+&to 1      &kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &mo 1   &kp LEFT_COMMAND    &kp K_MUTE       &kp SPACE  &mo 2   &kp RIGHT_SHIFT  &kp ENTER  &kp DOWN_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN UP>;
@@ -63,11 +63,11 @@
 
         layer_1 {
             bindings = <
-&trans                &kp F1           &kp F2           &kp F3        &kp F4     &kp F5           &mmv MOVE_UP     &kp F6     &kp F7         &kp F8          &kp F9          &kp F10               &trans
-&kp LG(LA(NUMBER_8))  &kp PRINTSCREEN  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp INSERT       &mmv MOVE_DOWN   &kp GLOBE  &kp PG_UP      &kp UP          &msc SCRL_DOWN  &kp LEFT_PARENTHESIS  &kp SPACE
-&trans                &kp SCROLLLOCK   &kp DOLLAR       &kp PERCENT   &kp CARET  &kp DELETE       &mmv MOVE_LEFT   &kp HOME   &kp LEFT       &kp DOWN        &kp RIGHT       &kp LEFT_BRACKET      &kp EQUAL
-&trans                &kp PAUSE_BREAK  &kp AMPERSAND    &kp ASTERISK  &kp GRAVE  &kp TILDE        &mmv MOVE_RIGHT  &kp END    &kp PAGE_DOWN  &kp UNDERSCORE  &msc SCRL_UP    &kp LEFT_BRACE        &kp TAB
-&to 0                 &trans           &trans           &trans        &trans     &kp LA(SPACE)    &trans           &mkp LCLK  &mkp RCLK      &trans          &trans          &kp MINUS
+&trans                &kp F1           &kp F2           &kp F3        &kp F4     &kp F5        &mmv MOVE_UP     &kp F6     &kp F7         &kp F8          &kp F9          &kp F10               &trans
+&kp LG(LA(NUMBER_8))  &kp PRINTSCREEN  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp INSERT    &mmv MOVE_DOWN   &kp GLOBE  &kp PG_UP      &kp UP          &msc SCRL_DOWN  &kp LEFT_PARENTHESIS  &kp SPACE
+&trans                &kp SCROLLLOCK   &kp DOLLAR       &kp PERCENT   &kp CARET  &kp DELETE    &mmv MOVE_LEFT   &kp HOME   &kp LEFT       &kp DOWN        &kp RIGHT       &kp LEFT_BRACKET      &kp EQUAL
+&trans                &kp PAUSE_BREAK  &kp AMPERSAND    &kp ASTERISK  &kp GRAVE  &kp TILDE     &mmv MOVE_RIGHT  &kp END    &kp PAGE_DOWN  &kp UNDERSCORE  &msc SCRL_UP    &kp LEFT_BRACE        &kp TAB
+&to 0                 &trans           &trans           &trans        &trans     &trans        &trans           &mkp LCLK  &mkp RCLK      &trans          &trans          &kp MINUS
             >;
 
             display-name = "layer1";
@@ -80,7 +80,7 @@
 &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &msc SCRL_DOWN   &kp BACKSLASH     &kp PIPE           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_PLUS      &kp LS(LG(NUMBER_5))
 &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &rgb_ug RGB_EFF    &msc SCRL_LEFT   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp KP_MINUS     &kp EQUAL
 &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &rgb_ug RGB_EFR    &msc SCRL_RIGHT  &kp SLASH         &kp QUESTION       &kp LEFT_BRACE        &kp RIGHT_BRACE        &rgb_ug RGB_SPD  &rgb_ug RGB_SPI
-&bt BT_CLR       &trans           &trans           &trans           &trans           &kp LG(SPACE)      &trans           &kp K_MUTE        &trans             &trans                &rgb_ug RGB_TOG        &kp MINUS
+&bt BT_CLR       &trans           &trans           &trans           &kp ENTER        &trans             &trans           &kp K_MUTE        &trans             &trans                &rgb_ug RGB_TOG        &kp MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
