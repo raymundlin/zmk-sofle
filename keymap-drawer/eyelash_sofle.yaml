@@ -90,7 +90,7 @@ layers:
   - PG UP
   - $$mdi:arrow-up-bold$$
   - $$mdi:pan-down$$
-  - (
+  - {t: '[', s: '{'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - SCROLLLOCK
@@ -103,7 +103,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '[', s: '{'}
+  - '{'
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
@@ -116,8 +116,8 @@ layers:
   - PgDn
   - _
   - $$mdi:pan-up$$
-  - '{'
-  - $$mdi:keyboard-tab$$
+  - $$mdi:pan-left$$
+  - $$mdi:pan-right$$
   - {t: LAYER0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
