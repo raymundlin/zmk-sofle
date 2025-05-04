@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - _
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - '2'
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - _
   - $$mdi:arrow-down-bold$$
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -91,7 +91,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:pan-down$$
   - {t: '[', s: '{'}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - SCROLLLOCK
   - $
@@ -104,7 +104,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - '{'
-  - {t: '=', s: +}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
   - '&'
@@ -128,8 +128,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
+  - {t: '=', s: +}
   '2':
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -156,7 +156,7 @@ layers:
   - (
   - )
   - KP PLUS
-  - Sft+Gui+5
+  - RGB TOG
   - RGB SAD
   - RGB SAI
   - KP 4
@@ -169,7 +169,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - KP MINUS
-  - {t: '=', s: +}
+  - Sft+Gui+5
   - RGB BRD
   - RGB BRI
   - KP 1
@@ -193,8 +193,8 @@ layers:
   - MUTE
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB TOG
   - {t: '-', s: _}
+  - {t: '=', s: +}
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
