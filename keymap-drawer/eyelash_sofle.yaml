@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:apple-keyboard-option$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-down-bold$$
+  - Alt+$$mdi:keyboard-tab$$
   - Y
   - U
   - I
@@ -33,20 +33,20 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
+  - $$mdi:keyboard-tab-reverse$$
   - H
   - J
   - K
   - L
   - {t: ;, s: ':'}
   - $$mdi:arrow-up-bold$$
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
   - V
   - B
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:keyboard-tab$$
   - N
   - M
   - {t: ',', s: <}
@@ -54,8 +54,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: layer1, h: toggle}
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-shift$$
   - layer1
   - $$mdi:apple-keyboard-command$$
