@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-up-bold$$
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -91,7 +91,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:pan-down$$
   - {t: '[', s: '{'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - SCROLLLOCK
   - $
@@ -104,7 +104,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - '{'
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
   - '&'
@@ -156,7 +156,7 @@ layers:
   - (
   - )
   - KP PLUS
-  - RGB TOG
+  - {t: Sft+Gui+5, s: Sft+Gui+%}
   - RGB SAD
   - RGB SAI
   - KP 4
@@ -169,7 +169,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - KP MINUS
-  - Sft+Gui+5
+  - RGB TOG
   - RGB BRD
   - RGB BRI
   - KP 1
