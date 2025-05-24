@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-down-bold$$
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -64,7 +64,7 @@ layers:
   - '2'
   - $$mdi:apple-keyboard-shift$$
   - _
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
@@ -104,7 +104,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - '{'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
   - '&'
@@ -143,7 +143,7 @@ layers:
   - F13
   - F14
   - F15
-  - Sft+Ctl+Gui+4
+  - RGB TOG
   - RGB HUD
   - RGB HUI
   - KP 7
@@ -156,7 +156,7 @@ layers:
   - (
   - )
   - KP PLUS
-  - {t: Sft+Gui+5, s: Sft+Gui+%}
+  - Sft+Gui+Ctl+4
   - RGB SAD
   - RGB SAI
   - KP 4
@@ -169,7 +169,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - KP MINUS
-  - RGB TOG
+  - {t: Sft+Gui+5, s: Sft+Gui+%}
   - RGB BRD
   - RGB BRI
   - KP 1
