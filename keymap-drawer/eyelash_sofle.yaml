@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:apple-keyboard-option$$
+  - Alt+$$mdi:keyboard-tab$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - Alt+$$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-option$$
   - Y
   - U
   - I
@@ -93,7 +93,7 @@ layers:
   - {t: '[', s: '{'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - SCROLLLOCK
+  - PAUSE BREAK
   - $
   - '%'
   - ^
@@ -106,7 +106,7 @@ layers:
   - '{'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PAUSE BREAK
+  - SCROLLLOCK
   - '&'
   - '*'
   - {t: '`', s: '~'}
