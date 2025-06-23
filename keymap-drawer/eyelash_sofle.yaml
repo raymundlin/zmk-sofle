@@ -20,13 +20,13 @@ layers:
   - E
   - R
   - T
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - Y
   - U
   - I
   - O
   - P
-  - $$mdi:arrow-up-bold$$
+  - {t: '=', s: +}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - $$mdi:arrow-down-bold$$
+  - {t: '-', s: _}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: layer1, h: toggle}
   - $$mdi:apple-keyboard-option$$
@@ -63,8 +63,8 @@ layers:
   - $$mdi:keyboard-space$$
   - '2'
   - $$mdi:apple-keyboard-shift$$
-  - _
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-left-bold$$
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
@@ -89,9 +89,9 @@ layers:
   - GLOBE
   - PG UP
   - $$mdi:arrow-up-bold$$
-  - $$mdi:pan-down$$
+  - $$mdi:keyboard-tab$$
   - {t: '[', s: '{'}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
   - $
@@ -104,7 +104,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - '{'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - SCROLLLOCK
   - '&'
@@ -114,9 +114,9 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - END
   - PgDn
-  - $$mdi:keyboard-tab$$
-  - $$mdi:pan-up$$
-  - $$mdi:pan-left$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:pan-down$$
   - $$mdi:pan-right$$
   - {t: LAYER0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -128,8 +128,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - $$mdi:pan-up$$
+  - $$mdi:pan-left$$
   '2':
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -193,8 +193,8 @@ layers:
   - MUTE
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - <
+  - '>'
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
