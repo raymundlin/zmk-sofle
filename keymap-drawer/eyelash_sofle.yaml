@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - Alt+$$mdi:keyboard-tab$$
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -63,8 +63,8 @@ layers:
   - $$mdi:keyboard-space$$
   - '2'
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
