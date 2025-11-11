@@ -78,35 +78,35 @@ layers:
   - F8
   - F9
   - F10
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - Gui+Alt+8
-  - PRINTSCREEN
+  - EJECT
   - '!'
   - '@'
   - '#'
   - Ins
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Gui+Sft+V
   - PG UP
   - $$mdi:arrow-up-bold$$
   - $$mdi:keyboard-space$$
-  - {t: '[', s: '{'}
+  - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PAUSE BREAK
+  - Sft+Gui+A
   - $
   - '%'
   - ^
-  - GLOBE
+  - Ctl+Gui+$$mdi:keyboard-space$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - HOME
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - '{'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - SCROLLLOCK
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Gui+Z
   - '&'
   - '*'
   - {t: '`', s: '~'}
@@ -155,7 +155,7 @@ layers:
   - '|'
   - (
   - )
-  - KP PLUS
+  - PAUSE BREAK
   - Sft+Gui+Ctl+4
   - RGB SAD
   - RGB SAI
@@ -168,7 +168,7 @@ layers:
   - '"'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - KP MINUS
+  - SCROLLLOCK
   - {t: Sft+Gui+5, s: Sft+Gui+%}
   - RGB BRD
   - RGB BRI
