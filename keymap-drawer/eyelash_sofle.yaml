@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '-', s: _}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -54,15 +54,15 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: layer3, h: toggle}
-  - $$mdi:apple-keyboard-option$$
+  - Ins
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - layer1
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - '2'
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   layer1:
@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - INS
+  - $$mdi:backspace-reverse-outline$$
   - Gui+Alt+8
   - EJECT
   - '!'
@@ -114,7 +114,7 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - END
   - PgDn
-  - $$mdi:keyboard-tab-reverse$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-tab$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
