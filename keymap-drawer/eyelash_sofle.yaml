@@ -60,7 +60,7 @@ layers:
   - layer1
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:keyboard-space$$
   - '2'
   - $$mdi:apple-keyboard-option$$
   - $$mdi:arrow-left-bold$$
